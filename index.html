@@ -2,9 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta content="en-us" http-equiv="Content-Language" />
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- robots用来告诉爬虫哪些页面需要索引，哪些页面不需要索引。content的参数有all,none,index,noindex,follow,nofollow。默认是all。 -->
+	<meta name="robots" content="none">
+
+	<meta charset="utf-8">
+
+	<!-- 指定IE和Chrome使用最新版本渲染当前页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> 
+	
+	<meta name="author" content="Adiu">
+	<meta content="zn-ch" http-equiv="Content-Language" />
+
+	<!--启用或禁用在iOS在Safari中的一个网页可能的电话号码自动检测-->
+	<meta name="format-detection" content="telephone=no">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>主页</title>
 </head>
 <style>
@@ -383,7 +395,7 @@
 		<br />
 		<div class="search_part">
 			<a class="logo" href="folder://">
-				<img class="smaller" src="img/logo.png" />
+				<img class="smaller" src="img/logo.gif" />
 			</a>
 			<br />
 			<form onsubmit="return search()" class="search_bar">
